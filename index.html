@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Course Catalog</title>
-    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <h1>Hello world</h1>
     <header>
-        <div>Enjoy your studying!</div>
-        <div>Our online courses</div>
+        <div class="header__subtitle">Enjoy your studying!</div>
+        <div class="header__title">Our online courses</div>
     </header>
 
     <main>
@@ -21,6 +20,7 @@
                 <template id="filter-card-template">
                     <div class="filter-card">
                         <div class="filter-card__name">
+                            <span class="filter-card__text"></span>
                             <span class="filter-card__counter"></span>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                         </div>
 
                         <div class="card__content">
-                            <span class="card__category"></span>
+                            <span class="card__tag"></span>
 
                             <span class="card__title"></span>
 
@@ -66,6 +66,7 @@
     <footer>
 
     </footer>
+    <script src="index.js" type="module"></script>
 </body>
 
 </html>
