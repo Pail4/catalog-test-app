@@ -1,0 +1,6 @@
+@import "src/styles/main.css";
+@import "src/blocks/card-list/card-list.css";
+@import "src/blocks/card/card.css";
+@import "src/blocks/header/header.css";
+@import "src/blocks/filters/filters.css";
+@import "src/blocks/search/search.css";

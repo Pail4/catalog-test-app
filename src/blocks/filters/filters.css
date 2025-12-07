@@ -1,0 +1,53 @@
+.filters-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: clamp(12px, 2vw, 24px);
+    margin-bottom: clamp(24px, 4vw, 40px);
+    flex-wrap: wrap;
+}
+
+.filters {
+    display: flex;
+    gap: clamp(8px, 1vw, 12px);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-card {
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: var(--text-color-muted);
+
+    &:hover {
+        color: var(--tag-text-color);
+        border-color: var(--tag-text-color);
+    }
+}
+
+.filter-card--active {
+    color: var(--tag-text-color);
+    border: 1px solid var(--tag-text-color);
+}
+
+.filter-card__name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.filter-card__text {
+    white-space: nowrap;
+}
+
+.filter-card__counter {
+    font-size: 10px;
+    font-weight: 700;
+}

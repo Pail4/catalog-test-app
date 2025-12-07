@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --tag-color-marketing: #03cea4;
+    --tag-color-management: #5a87fc;
+    --tag-color-hr-recruiting: #f89828;
+    --tag-color-design: #f52f6e;
+    --tag-color-development: #7772f1;
+    --tag-color-default: #03cea4;
+    --tag-text-color: #ff3f3a;
+
+    --text-color-default: #1e212c;
+    --text-color-secondary: #424551;
+    --text-color-subtitle: #787a80;
+    --text-color-muted: #9a9ca5;
+    --text-color-accent: #ff4242;
+}
+
+body {
+    background: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: var(--text-color-default);
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 clamp(16px, 3vw, 48px);
+    max-width: 1400px;
+}
