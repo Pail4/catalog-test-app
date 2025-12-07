@@ -15,9 +15,14 @@
 }
 
 .filter-card {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     padding: 10px 20px;
     background: #ffffff;
     border-radius: 6px;
+    border: 1px solid transparent;
     cursor: pointer;
     transition: all 0.2s ease;
     user-select: none;
