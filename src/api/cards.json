@@ -1,0 +1,65 @@
+[
+  {
+    "id": "0",
+    "tag": "Marketing",
+    "name": "The Ultimate Google Ads Training Course",
+    "price": "100",
+    "author": "Jerome Bell"
+  },
+  {
+    "id": "1",
+    "tag": "Management",
+    "name": "Product Management Fundamentals",
+    "price": "480",
+    "author": "Marvin McKinney"
+  },
+  {
+    "id": "2",
+    "tag": "HR & Recruiting",
+    "name": "HR  Management and Analytics",
+    "price": "200",
+    "author": "Leslie Alexander Li"
+  },
+  {
+    "id": "3",
+    "tag": "Marketing",
+    "name": "Brand Management & PR Communications",
+    "price": "530",
+    "author": "Kristin Watson"
+  },
+  {
+    "id": "4",
+    "tag": "Design",
+    "name": "Graphic Design Basic",
+    "price": "500",
+    "author": "Guy Hawkins"
+  },
+  {
+    "id": "5",
+    "tag": "Management",
+    "name": "Business Development Management",
+    "price": "400",
+    "author": "Dianne Russell"
+  },
+  {
+    "id": "6",
+    "tag": "Development",
+    "name": "Highload Software Architecture",
+    "price": "600",
+    "author": "Brooklyn Simmons"
+  },
+  {
+    "id": "7",
+    "tag": "HR & Recruiting",
+    "name": "Human Resources – Selection and Recruitment",
+    "price": "150",
+    "author": "Kathryn Murphy"
+  },
+  {
+    "id": "8",
+    "tag": "Design",
+    "name": "User Experience. Human-centered Design",
+    "price": "240",
+    "author": "Cody Fisher"
+  }
+]
