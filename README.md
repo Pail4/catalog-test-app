@@ -2,6 +2,9 @@
 
 Тестовое приложение каталога онлайн-курса на чистом JS
 
+Деплой [github pages](https://pail4.github.io/catalog-test-app/)
+Деплой [vercel](https://catalog-test-app.vercel.app/)
+
 ### Задача
 Сверстать и оживить небольшой блок точно по [макету](https://www.figma.com/design/iuXLXifXgv4ZCzad0KeYKr/Test-Task?node-id=0-1&p=f&t=KsNXMs8WQDm1CVOJ-0) в Figma.
 
